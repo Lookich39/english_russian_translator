@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local outputs
+out/
+output.json
+
+
+# Model/cache
+.cache/
+.huggingface/
+hf_cache/
+transformers_cache/
+
+# Large local weights
+weights/
+
+# Docker
+*.tar
